@@ -1,0 +1,58 @@
+.mainpage_container {
+    height: 650px;
+    background-color: #EFF2F5;
+    overflow: hidden;
+}
+
+
+.imageLayout_container {
+    display: flex;
+    margin: 15px;
+}
+
+/* .imageLayout_imglay {} */
+
+.imageLayout_img {
+    max-height: 32px;
+    max-width: 32px;
+}
+
+.imageLayout_text {
+    font-weight: 500;
+    margin: 10px;
+    font-size: 15px;
+}
+.leftSide {
+    flex: 1 1 25%; /* Take up 25% of the container */
+}
+
+.middleContainer {
+    flex: 1 1 50%;
+    max-width: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    /* padding: 20px 20px 20px 20px; Top, Right, Bottom, Left padding */
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.middleContainer::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Ensure background of scrollbar is transparent */
+}
+
+.rightSide {
+    flex: 1 1 25%; /* Take up 25% of the container */
+}
+
+.gridContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.leftSide,
+.rightSide {
+    padding: 15px;
+    background-color: #fff; /* Optional: Differentiate the side panels */
+}

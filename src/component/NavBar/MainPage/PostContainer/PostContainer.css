@@ -1,0 +1,107 @@
+.post__container {
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.post__header {
+    display: flex;
+    height: 65px;
+}
+
+.post__header_img {}
+
+.post_img {
+    margin: 15px;
+}
+
+.post__header_text {
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.post__description {
+    margin-left: 15px;
+    text-align: left; /* Align text to the left */
+    margin-top: 10px; /* Add some space from the header */
+}
+
+.post__image {
+    margin: 10px 0;
+    text-align: center; /* Center align image horizontally */
+}
+
+.post__postImage {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
+
+.post__likeCountContiner {
+    display: flex;
+    height: 30px;
+    padding: 0 10px;
+    border-bottom: 1px solid #CDD0C4;
+}
+
+.post__like {}
+
+.post__img {
+    height: 20px;
+}
+
+.post__likecount {
+    margin-left: 5px;
+}
+
+.post__likeShare {
+    display: flex;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.post__tab {
+    display: flex;
+    width: 200px;
+}
+
+.post__tabfirst {}
+
+.post__tabimg {
+    width: 30px;
+    cursor: pointer;
+}
+
+.post__tabtext {
+    margin: 5px;
+}
+
+.upload__comment {
+    border-top: 1px solid #CDD0C4;
+}
+.comment {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.comment__avatar {
+    margin-right: 10px;
+}
+
+.comment__text {
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.comment__count {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #65676b;
+}
